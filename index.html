@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Quiz do Meu Malvado Favorito</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>O que você prefere?</p>
+            <button class="btn-proximo" data-proximo="1">Minions</button>
+            <button class="btn-proximo" data-proximo="2">Gru</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Minions</p>
+            <button class="btn-proximo" data-proximo="3">Minion Kevin</button>
+            <button class="btn-proximo" data-proximo="4">Minion Stuart</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Gru</p>
+            <button class="btn-proximo" data-proximo="5">Dr. Nefário</button>
+            <button class="btn-proximo" data-proximo="6">Vector (Era meu nome de nerd)
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Uau, Você escolheu o LIDER dos minios.</p>
+            <button class="btn-proximo" data-proximo="7">Agora vamos ver o quanto você  conhece.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Minion Stuart</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Dr. Nefário</p>
+            <button class="btn-proximo" data-proximo="7">Vamos continuar falando do Meu Malvado Favorito?</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Vector (Era meu nome de nerd)</p>
+            <button class="btn-proximo" data-proximo="8">Agora vamos roubar a lua!!</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você esta pronto? 
+                sim ou com certeza?</p>
+            <button class="btn-proximo" data-proximo="9">Usar Raio encolhedor (recomendado pelo Gru)</button>
+            <button class="btn-proximo" data-proximo="10">Usar uma escada para chegar ate ela (recomendado pelos minions)</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Agora vamos roubar a lua!!</p>
+            <button class="btn-proximo" data-proximo="7">Você esta pronto? 
+                sim ou com certeza?</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Usar Raio encolhedor (recomendado pelo Gru)</p>
+            <button class="btn-proximo" data-proximo="11">Gru com a ajuda dos minions tenta roubar a lua, mas não tem sucesso.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Usar uma escada para chegar ate ela (recomendado pelos minions)</p>
+            <button class="btn-proximo" data-proximo="12">Gru oferece ajuda para você.
+            </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Parabéns!! Você conseguiu roubar a lua.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Gru roubou a lua somente para ele, a ideia dos minios sobre a escada, era um plano do Gru.</p>
+            <button class="btn-proximo" data-proximo="11">Parabéns!! Você conseguiu roubar a lua.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
